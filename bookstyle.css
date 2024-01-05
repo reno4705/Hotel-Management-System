@@ -1,0 +1,77 @@
+.container{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:500px;
+    height:520px;
+    padding:40px;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:3px;
+    background-color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  header{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    color:blue;
+    position:absolute;
+    top:10px;
+    width:100%;
+  }
+
+  h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 90px;
+    font-style: italic;
+  }
+
+  body{
+    background-image:url('https://www.bungalowskeylargo.com/wp-content/uploads/2019/06/FishTalesLounge2.jpg');
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input[type="date"],
+  input[type="number"] {
+    display: block;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  input[type="button"] {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  select{
+    border:1px solid black;
+    width:95%;
+    cursor:pointer;
+    font-family:'Times New Roman', Times, serif;
+    border-radius:5px;
+    padding:10px;
+    font-size: 18px;
+  }
+  
+  option {
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./signstyle.css">
+</head>
+<body>
+  <header>
+    <h1>Star Hotel</h1>
+  </header>
+  <main>
+  <div class="container">
+    <label>UserID</label>
+    <input type="text" id="userid" autocomplete="false"><br>
+    <br>
+    <label>Password</label>
+    <input type="password" id="password" autocomplete="off"><br>
+    <br>
+    <input type="checkbox" id="showpassword" onclick="check()">
+    <label>Show Password</label><br>
+    
+    <label>UserType</label>
+    <select id="usertype">
+      <option></option>
+      <option>Admin</option>
+      <option>Guest</option>
+      <option>Employees</option>
+    </select><br>
+    <br>
+    <button id="login">Login</button>
+    <button id="reset">Reset</button><br>
+    <br>
+    <p>Don't have an account? <a href="#">SignUp</a></p>
+  </div>
+  </main>
+  <footer>
+    &copyStar Hotel
+  </footer>
+  <script src="./signjs.js"></script>
+</body>
+</html>
